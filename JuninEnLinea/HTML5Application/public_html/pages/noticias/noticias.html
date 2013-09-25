@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="../../junin.css" />
+    <script type="text/javascript" src="rss.js"></script> 
+    <script language="javascript"> 
+        window.onload = function(){ 
+            ReadRSS('http://www.junin-cundinamarca.gov.co/apc-aa/view.php3?vid=449','rssBodyTemplate','rssTitleTemplate'); 
+        } 
+    </script>
+    
+    <title>Junín en Línea - Noticias</title>
+</head>
+
+<body>
+    
+<!-------------------Header--------------------->
+    <div class="header">
+            <div id="nombrepagina">
+        		<h1>Junín en Línea</h1> 
+            </div>
+            <div id="nombresegmento">
+            	<h2>Noticias</h2>
+            </div>
+        </div>
+
+        <div class="body">
+            <!-----------------------MENU------------------>
+        <div class="menu">
+                <table id="menuTable">
+                    <thead><h3>Menú</h3></thead>
+                    <tr>
+                        <td><a href="../historia.html">Historia</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="pages/geografia.html">Geografía</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="pages/turismo.html">Turismo</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="pages/creditos.html">Créditos</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="../../index.html">Home</a></td>
+                    </tr>
+                </table>
+        </div>
+            
+            <!-------------------Panel Central--------------------------->
+        <section id="midle" >
+             <h3 id="sectionTitle">Historia de Junín</h3>
+			 
+            <div class="midletitle" id="rssTitleTemplate"> 
+                (::Title::)<br/> 
+                <a href="(::Link::)">
+                    <h1>(::Description::)</h1>
+                </a> 
+            </div> 
+            <div class="midletext" id="rssBodyTemplate"> 
+                <a href="(::Link::)" class="midletitle">
+                    <b>
+                        (::Title::)
+                    </b>
+                </a> 
+                <b>
+                    <!--(::Pubdate::)-->
+                </b> 
+                <br/>
+                <font size="-1" class="content">
+                    (::Description::)
+                </font> 
+                <a href="(::Link::)">
+                    Ver mas...
+                </a>
+                <hr noshade/> 
+                <br/> 
+            </div>
+        </section>
+          
+            <!----------------Información Lateral------------------>
+        <div class="rightinfo">
+            <h3>Sitios Relacionados</p>
+            </div>
+        </div>    
+
+
+        <!----------------Pié de Pagina----------------------->
+        <div class="foot">
+            <p>Wilmer Manuel Amézquita Obando - wilcom1 - 2013</p>
+        </div>
+</body>
+</html>

@@ -1,0 +1,310 @@
+* 
+    Document   : junin
+    Created on : 10/04/2013, 02:08:40 PM
+    Author     : stitc_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face{
+	font-family: 'GenR102';
+	src: url('../font/GenR102.ttf');
+}
+
+@-webkit-keyframes minimiza{
+	0%{height:180px;}
+	100%{height:100px;}
+}
+@-moz-keyframes minimiza{
+	0%{height:180px;}
+	100%{height:100px;}
+}
+@-o-keyframes minimiza{
+	0%{height:180px;}
+	100%{height:100px;}
+}
+@-webkit-keyframes minimizaNombreP{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+@-moz-keyframes minimizaNombreP{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+@-o-keyframes minimizaNombreP{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+
+@-webkit-keyframes minimizaNombreS{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+@-moz-keyframes minimizaNombreS{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+@-o-keyframes minimizaNombreS{
+	0%{padding-top:3em}
+	100%{padding-top:1em}
+}
+
+nav{
+	background-color: rgba(118,240,41,1);
+	height: 60px;
+	padding:10px;
+}
+menu{
+	background-color: rgba(118,240,41,1);
+	overflow: hidden;
+}
+aside{
+	float:right;
+	width: 20%;
+	margin:10px;
+	background-color: #FFF;
+	padding: 0px 0px 0px 0px;
+	border-radius: 18px;
+}
+h3{
+	text-align:center;
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	padding:10px;
+	background: rgba(0,128,1,1);
+	font-family: GenR102;
+}
+th{
+
+	font-size: 30px;
+	color: rgba(0,128,1,1);
+	border-radius: 10px,10px,0px,0px;
+}
+.imgTable{
+	height: 150px;
+	width: 230px;
+}
+
+.menuItem{
+	padding:5px;
+	display: inline;
+	background-color: rgba(118,240,41,1);
+	border: 1px solid black;
+	border-radius: 10px;
+	float:left;
+	text-align:center;
+	height:60px;
+	width:85px;
+	padding: 3px;
+}
+.menuItem a{
+	display: inline;
+	text-decoration: none;
+}
+.menuItem: hover{
+	background-color: rgba(254,254,0,1);
+	box-shadow: 0px 0px 2px rgba(254,254,0,1);
+	-moz-box-shadow: 0px 0px 2px rgba(254,254,0,1);
+	-webkit-box-shadow: 0px 0px 2px rgba(254,254,0,1);
+	-o-box-shadow: 0px 0px 2px rgba(254,254,0,1);
+}
+.iconMenu{
+	height:40px;
+	width: 40px;
+	text-decoration: none;
+}
+.asideInfo{
+	border: 1px solid #999;
+	border-radius: 10px;
+	margin: 10px;
+	text-align:center;
+}
+.vcard{
+	text-align:center;
+	text-shadow: 0px 0px 5px rgba(215,215,215,1);
+}
+.midletitle{
+	text-align: justify;
+	margin: 20px;
+	font-family: GenR102;
+}
+.midletext{
+	text-align: justify;
+	margin: 20px;
+	font-family: GenR102;
+}
+
+
+#content{
+	text-align: justify;
+	margin: 20px;
+}
+
+#photo{
+	display:block;
+	margin: 10px;
+}
+#imageIni{
+	width:60%;
+	display:block;
+	margin: auto;
+}
+#imageCube{
+	width:100px;
+	display:block;
+	margin: auto;
+}
+#descripcion{
+	text-align:center;
+}
+#sectionTitle{
+	width:100%;
+	height:30px;
+	background: rgba(0,128,1,1);
+	border-radius: 18px 18px 0px 0px;
+	text-shadow: 0px 0px 10px rgba(254, 254, 1,1);
+	color: #FFF;
+	margin: 0px;
+}
+
+#sectionTitleRound{
+	width:100%;
+	height:30px;
+	background: rgba(0,128,1,1);
+	border: 1px solid rgba();
+	border-radius: 18px 18px 18px 18px;
+	text-shadow: 0px 0px 10px rgba(254, 254, 1,1);
+	color: #FFF;
+	margin: 0px;
+}
+
+#sectionTitleRound:hover{
+	width:100%;
+	height:30px;
+	background: rgba(254,254,0,1);
+	border-radius: 18px 18px 18px 18px;
+	text-shadow: 0px 0px 10px rgba(254, 254, 1,1);
+	color: rgba(0,128,1,1);
+	margin: 0px;
+	cursor: pointer;
+}
+
+#sectionTitleCube{
+	width:100%;
+	height:45px;
+	background: rgba(0,128,1,1);
+	border-radius: 18px 18px 0px 0px;
+	color: #FFF;
+	margin: 0px;
+}
+#midle{
+	float:left;
+	width: 75%;
+	border: 1px solid #999;
+	margin: 5px;
+	border-radius: 18px;
+	background: rgba(255,255,255,1);
+	font-family: GenR102;
+	box-shadow: 10px 10px 20px green;
+	-moz-box-shadow: 10px 10px 20px green;
+	-webkit-box-shadow: 10px 10px 20px green;
+	-o-box-shadow: 10px 10px 20px green;
+}
+#midleMultiple{
+	float:left;
+	width: 98%;
+	border: 0px solid #999;
+	margin: 5px;
+	border-radius: 18px;
+	background: rgba(255,255,255,1);
+	font-family: GenR102;
+	-moz-box-shadow: 10px 10px 20px green;
+	-webkit-box-shadow: 10px 10px 20px green;
+	-o-box-shadow: 10px 10px 20px green;
+}
+
+#midleCube{
+	float:left;
+	width: 20%;
+	height: 150px;
+	border: 1px solid #999;
+	margin: 5px;
+	border-radius: 18px;
+	background: rgba(255,255,255,1);
+	font-family: GenR102;
+	box-shadow: 5px 5px 10px green;
+	-moz-box-shadow: 10px 10px 20px green;
+	-webkit-box-shadow: 10px 10px 20px green;
+	-o-box-shadow: 10px 10px 20px green;
+}
+
+#nombreSeccion{
+	float: right;
+	padding-right:3em;
+	padding-top:1em;
+	color: #FFF;
+	animation: minimizaNombreS 10s;
+	-webkit-animation: minimizaNombreS 10s;
+	-moz-animation: minimizaNombreS 10s;
+	-o-animation: minimizaNombreS 10s;
+}
+#nombrePagina{
+	float: left;
+	padding-left:3em;
+	padding-top:1em;
+	color: #FFF;
+	animation: minimizaNombreP 10s;
+	-webkit-animation: minimizaNombreP 10s;
+	-moz-animation: minimizaNombreP 10s;
+	-o-animation: minimizaNombreP 10s;
+}
+#bodie{
+	padding: 30px 30px 30px 30px;
+	background: rgba(215,215,215,1);
+}
+#cuerpo{
+	border: 1px solid black;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 10px 10px 50px green;
+	-moz-box-shadow: 10px 10px 50px green;
+	-webkit-box-shadow: 10px 10px 50px green;
+	-o-box-shadow: 10px 10px 50px green;
+	background-color:rgba(227,243,204,1);
+}
+#cajaHeader{
+	width:100%;
+	height:100px;
+	background: rgba(0,128,1,1);
+	border-radius: 18px 18px 0px 0px;
+	text-shadow: 0px 0px 10px rgba(254, 254, 1,1);
+	animation: minimiza 10s;
+	-webkit-animation: minimiza 10s;
+	-moz-animation: minimiza 10s;
+	-o-animation: minimiza 10s;
+}
+#turisContent{
+	width: 100%;
+	text-align: center;
+	background-color: rgba(230,226,227,0.5);
+}
+
+#articleContent{
+	padding: 10px;
+}
+#tablaFoto{
+	width: 30%;
+}
+#tablaTexto{
+	width: 70%;
+}
+#autorFoto{
+	font-family: "Microsoft Sans Serif";
+	font-size: 10px;
+}
+#turisContent{
+	border-radius: 10px;
+	border: 1px solid rgba(0,128,1,1);
+}
