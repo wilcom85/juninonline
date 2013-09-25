@@ -1,0 +1,16 @@
+# manifiesto V1.0
+# Este es el manifiesto para la página web Junín en Línea.
+
+CACHE MANIFEST
+manifiesto.html
+../../index.html
+../../junin.css
+../../junin.js
+../historia.html
+../noticias/noticias.html
+../noticias/rss.js
+
+NETWORK
+
+FALLBACK
+

@@ -1,0 +1,149 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Junín En Línea</title>
+        <link type="text/css" rel="stylesheet" href="../junin.css" />
+        <script type="text/javascript" src="../junin.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            [required]{
+                border-color: #CCC;
+                box-shadow: 0px 0px 5px #0F0;
+            }
+            :invalid{
+                border-color: red;
+                box-shadow: 0px 0px 5px red;
+            }
+        </style>
+    </head>
+    
+    <body><!--Etiqueta de cuerpo-->
+        
+        <header class="header"><!--Encabezado de la página-->
+            <div id="nombrepagina">
+        	<h1>Junín en Línea</h1> 
+            </div>
+            <div id="nombresegmento">
+            	<h2>Contáctenos</h2>
+            </div>
+        </header>
+        
+        
+        <div class="body"> <!--Cuerpo de la página-->
+    
+            <nav class="menu"><!-----------------------MENU------------------>
+                    <table id="menuTable">
+                        <thead><h3>Menú</h3></thead>
+                        <tr>
+                            <td><a href="institucional.html">Institucional</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="historia.html">Historia</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="geografia.html">Geografía</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="turismo.html">Turismo</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="noticias/noticias.html">Noticias</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Contáctenos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="creditos.html">Créditos</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="../index.html">Principal</a></td>
+                        </tr>
+                    </table>
+            </nav>
+
+            
+         <div class="infomidle"><!-------------------Panel Central--------------------------->
+            <div class="midletitle">
+                <h3>Contáctenos</h3>
+            </div>
+            <article class="midletext">
+		<table align="center" width="600">
+                    <tr>
+                        <td>
+                            Fecha:
+                        </td>
+                        <td align="left">
+                            <input type="date" value="2013-06-13" />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                   	   <td>
+                                	Nombre:
+                           </td>
+                           <td align="left">
+                               <input type="text" id="NombreContactenos" size="50" align="left"  required />
+                            </td>
+                        </tr>
+                    <tr>
+                        <td>
+                        	E-Mail:
+                        </td>
+                        <td align="left">
+                            <input type="email" value="usuario@dominio.com" id="MailConactenos" size="50" align="left" required />
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td  valign="top">
+                        	Comentario:
+                        </td>
+                        <td align="left">
+                            <textarea cols="40" id="ComentarioContactenos" align="left" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            Encuesta:
+                        </td>
+                        <td align="left">
+                            <input type="range"  max="10" min="0" value="5" step="1"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Color:
+                        </td>
+                        <td align="left">
+                            <input type="color" placeholder="e.g. #cecece" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Califique de 1 a 10 esta página.
+                        </td>
+                        <td align="left">
+                            <input type="number" step="1" min="0" max="10" value="5" />
+                        </td>
+                    </tr>
+                </table>
+            </article>
+         </div>
+                
+            
+            
+            
+            
+            <div class="rightinfo"><!----------------Información Lateral------------------>
+                <h3>Sitios<wbr> Relacionados</p>
+            </div>
+        </div>
+        
+        <footer class="foot"><!----------------Pié de Pagina----------------------->
+            <p><span itemprop="name">Wilmer Manuel Amézquita Obando</span> - <SPAN itemprop="nickname">wilcom1</span> - <time>2013</time></p>
+        </footer>
+    </body>
+</html>

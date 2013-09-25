@@ -1,0 +1,162 @@
+/* 
+    Document   : junin
+    Created on : 10/04/2013, 02:08:40 PM
+    Author     : stitc_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a{
+	text-decoration:none;
+	color: #0F0;
+	
+}
+
+a:hover{
+    font-size: 15px;
+	color: #FF0;
+}
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    text-align: right;
+}
+
+h3{
+    text-align: center;
+	color:#FF0;
+	text-shadow: #000;		
+}
+
+root { 
+    display: block;
+}
+
+.header{
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: #006600;
+    margin: 5px 50px 5px 50px;
+    color: gold;
+    font-family: Tahoma, Geneva, sans-serif;    
+}
+
+.body{
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: gainsboro;
+    margin: 5px 50px 5px 50px;
+    color: gold;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.button{
+    background-color: blue;
+}
+.buttonmenu{
+    background-color: window;
+    border-radius: 20px;
+}
+
+.content{
+    margin:10px;
+    text-align: justify;
+    color: black;
+}
+
+.foot{
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: #006600;
+    margin: 5px 50px 5px 50px;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+.menu{
+    background-color: #006600;
+    border-radius: 5px;
+    border: 2px solid green;
+    display:inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 5px;
+    vertical-align: top;
+    width: 20%;
+    height: 100%;
+    color:#CCC;
+}
+
+.index-picture{
+	margin: 5px;
+	display:inline-block;
+	background-color: #006600;
+    border-radius: 5px;
+	vertical-align:middle;
+	padding:inherit;
+    width: 55%;
+}
+        
+.infomidle{
+	margin: 5px;
+	font-family: Verdana;
+	display:inline-block;
+	background-color: #006600;
+	border-color: #006600;
+	border-style: solid;
+	border-radius: 5px;
+	vertical-align:middle;
+	padding:inherit;
+	width: 55%;
+	text-align: center;
+}
+
+.midletitle{
+	color: #090;         
+}
+        
+.midletext{
+	color: #000;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+        
+        
+.rightinfo{
+    margin: 5px;
+    display: block;
+    display:inline-block;
+    background-color: #006600;
+    border-radius: 5px;
+    vertical-align:top;
+    width: 20%;
+}
+        
+        
+#nombrepagina{
+	text-align:left;
+	display:inline-block;
+    width: 49%;
+}
+
+#nombresegmento{
+    alignment-baseline: middle;
+    display:inline-block;
+    text-align:right;
+    width: 49%;
+}
+
+#imagenPrincipal{
+    margin:5px auto 5px auto;
+    display: block;/*bloquea la imagen al centro>*/
+    width: 80%;
+    height: 80%;
+    
+}
+#menuTable{
+    margin: 18px;
+}

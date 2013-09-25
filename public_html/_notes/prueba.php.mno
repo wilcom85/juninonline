@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_persona" value="name:nombre_persona;datatype:string,name:apellido_persona;datatype:string,name:fk_id_tipoId_persona;datatype:string,name:numeroId_persona;datatype:string" />
+	<infoitem key="UD_checkin" value="name:nombre_persona;datatype:string,name:apellido_persona;datatype:string,name:fk_id_tipoId_persona;datatype:string,name:numeroId_persona;datatype:string" />
+</info>
